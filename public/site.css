@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 5px;
+  background-color: lightgray;
+    
+  }
+  #heading{
+
+    text-align: center;
+  }
+
+  #p1{
+
+    text-align: center;
+  }
+
+  h1{
+    background-color: firebrick;
+    color: white;
+  }
+
+  .section1{
+
+    border: 3px solid black;
+    margin-left: 250px;
+    width: 200%;
+  }
+  
+
+label {
+
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 175px;
+    margin-left: -10px;
+  }
+
+input[type=text], select {
+
+    position: absolute;
+    width: 160px;
+    padding-left: 250px;
+    margin-top: -5px;
+    border: 5px solid black;
+}
+
+#btn1{
+    text-align: right;
+    /*margin: -38px 90px 10px -10px;  */
+    margin: 20px 400px;
+    background-color: black;
+    width: 150px;
+   
+}
+
+#btn2 {
+  width: 150px;
+  background-color: firebrick;
+  padding: 14px 20px;
+  color: white;
+  cursor: pointer;
+  text-shadow: black;
+  border-radius: 4px;
+    }
+
+#sectionSearch {
+    max-width: 450px;
+    padding: 25px; 
+  }
+
+  p{
+      font-size: 18px;
+      line-height: 1.5;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 4px;
+  }
+
+a{
+  color: firebrick;
+}
+  
+       
+#ulist {
+
+  align-content: center;
+  align-self: center;
+  font-size: 20px;
+  color: firebrick;   
+}
+
+.peopleFound{
+
+  border: 2px solid black;
+  text-align: center;
+}
+
+#results{
+
+  size: 15px;
+}
+
+#a1{
+  text-align: center;
+}
+
+d1{
+  display: inline block;
+  padding-bottom: 10 px; 
+}
+
+dt{
+
+  font-weight: bold; 
+  font-size: 15px;  
+}
+
+#errorClass{
+color: firebrick;
+font-size: 20px;
+}
+
+#peopleNotFound
+{
+  font-size: 20px;
+  color: darkred;
+}
+
+.section2{
+  text-align: center;
+  font-size: 20px;
+}
+
+a:visited{
+
+  color: blue;
+}
+
