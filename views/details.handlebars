@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>People Found1</title>
+   <link rel="stylesheet" href="/public/site.css" type="text/css">
+</head>
+<body>
+    <h1>People Found</h1>  
+    <h2>{{peopleData.firstName}} {{peopleData.lastName}}</h2> 
+    <div class="peopleFound">   
+        <dl>
+            <dt>ID</dt>
+            <dd>{{peopleData.id}}</dd>
+            <dt>First Name</dt>
+            <dd>{{peopleData.firstName}}</dd>
+            <dt>Last Name</dt>
+            <dd>{{peopleData.lastName}}</dd>
+            <dt>Address</dt>
+            <dd>{{peopleData.address}}</dd>
+            <dt>Zip Code</dt>
+            <dd>{{peopleData.zip}}</dd>
+            <dt>Phone</dt>
+            <dd>{{peopleData.phone}}</dd>
+            <dt>Social Security Number</dt>
+            <dd>{{peopleData.ssn}}</dd>
+        </dl>
+
+        <div class="section2">      
+            <a href="/">Search for another name</a>
+        </div> 
+    </div>
+</body>
+</html>

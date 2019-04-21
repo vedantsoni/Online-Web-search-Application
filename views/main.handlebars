@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>People Finder</title>
+     <link rel="stylesheet" href="/public/site.css" type="text/css"> 
+</head>
+<body>
+    <h1 id="heading">People Finder</h1>
+    <main>        
+        <p id="p1">
+            <b>The website helps in searching through information of people, that are conatianed in the dataset named people.<br>
+            The search box below takes an input in form of characters and returns output matching to that character string.<br> 
+            After successful matching of the name, the page will return upto 20 search results. The user can select his/her desired name, which will then produce the detailed informtion of that person.</b>
+       </p>
+     <form action="/search" method="POST" id="sectionSearch">
+     <div class="section1">
+        <div>
+        <label>Enter Name</label>
+        <input type="text" name="personName">
+        </div>
+        
+        <div id="btn1">
+        <button type="submit" id="btn2">Search</button>
+        </div>
+        </div>
+     </form>
+    </main>
+</body>
+</html>

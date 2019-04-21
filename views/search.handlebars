@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>People Found</title>
+   <link rel="stylesheet" href="/public/site.css" type="text/css">
+</head>
+<body>
+    <h1>People Found</h1>  
+    <h2>{{search.nameProvided}}</h2>
+    <main class="peopleFound"> 
+      
+        {{#if search.nameSearched}}   
+        <p style="font-size:75px">&#128513;</p>   
+        <p id="results">The search matched with the following people</p> 
+        
+        {{#each search.nameSearched}}
+            <ul id="ulist"> 
+                <ul>
+                    <h4>&#9755;
+                    <a href="/details/{{id}}">{{firstName}} {{lastName}}</a>
+                    <h4>
+                 </ul>
+            </ul>                           
+      {{/each}}
+
+        <div class="section2">      
+            <a href="/">Search for another name</a>
+        </div> 
+      {{else}}
+        <p style="font-size:75px">&#128580;</p>
+        <p id="peopleNotFound">We're sorry, but no results were found for {{search.nameProvided}}.</p>
+      {{/if}}
+    </main> 
+</body>
+</html>

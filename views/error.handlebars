@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>People Found</title>
+   <link rel="stylesheet" href="/public/site.css" type="text/css">
+</head>
+<body>
+    <h1>Not Found</h1>
+     {{#if hasErrors}}       
+            {{#each errors}}           
+              <p id="errorClass"> {{this}}</p>            
+            {{/each}} 
+  {{else}}  
+   <p id="errorClass"></p>Entered URL is not valid</p>   
+
+        <div class="section2">      
+            <a href="/">Try another search</a>
+        </div> 
+   {{/if}}
+</body>
+</html>
